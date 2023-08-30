@@ -1,0 +1,62 @@
+/* Styling Components */
+
+body {
+  width: 350px;
+  background: #7cd4fa;
+}
+
+.h2t {
+  margin-top: 1%;
+  margin-bottom: 0%;
+  color: #e41655;
+}
+
+.p2t {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.popup-container {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#submitButton {
+  color: #e41655;
+  background: #ff1d58;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #e41655;
+  margin-top: 10px;
+  width: 100px;
+  background: transparent;
+  transition: 0.5s;
+}
+
+#submitButton:hover {
+  background: #e41655;
+  color: #cfe0e8;
+}
+
+#questionInput {
+  width: 100%;  
+  margin-bottom: 10px;
+}
+
+#submitButton {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.response-area {
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.error-area {
+  color: red;
+  margin-top: 10px;
+}

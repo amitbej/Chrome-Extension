@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome-GPT",
+    "version": "0.0.13",
+    "description": "A simple extension for answering questions.",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+        
+    }
+}
